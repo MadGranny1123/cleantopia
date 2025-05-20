@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>크린토피아_practice</title>
+  <link rel="stylesheet" href="cleantopia.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".gnb").mouseenter(function(){
+        $(".bg_white").stop().animate({"height":"350px"});
+      })
+      $(".gnb").mouseleave(function(){
+        $(".bg_white").stop().animate({"height":"70px"});
+      })
+    });
+  </script>
+</head>
+<body>
+  <div id="header">
+    <ul class="top_gnb">
+      <li><a href="#">로그인 ┃</a></li>
+      <li><a href="#">회원가입 ┃</a></li>
+      <li><a href="#">정보공개서 ┃</a></li>
+      <li><a href="#">고객센터</a>
+        <ul class="cust">
+          <li><a href="">자주묻는 질문</a></li>
+          <li><a href="">고객의 소리</a></li>
+          <li><a href="">창업 문의</a></li>
+          <li><a href="">고객설문조사</a></li>
+          <li><a href="">구인공고</a></li>
+        </ul></li>
+      <li><a href="#"></a>
+        <ul class="lang">
+          <li><a href="#">ENG │</a></li>
+          <li><a href="#"><span>KOR</span></a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="bg_white">
+      <div class="main_gnb">
+        <h1 class="logo">크린토피아</h1>
+        <ul class="gnb">
+        <li>
+          <a href="#">세탁서비스</a>
+          <ul class="sub">
+            <li><a href="#">일반 세탁</a></li>
+            <li><a href="#">플러스케어</a></li>
+            <li><a href="#">단체세탁</a></li>
+            <li><a href="#">수거배달</a></li>
+            <li><a href="#">무인세탁함</a></li>
+            <li><a href="#">디테일링</a></li>
+            <li><a href="#">익스프레스1,2,3</a></li>
+            <li><a href="#">의류보관</a></li>
+          </ul>
+        </li>
+        <li class="blacklabel">
+          <a href="#">BLACK LABEL</a>
+          <ul class="sub">
+            <li><a href="#">블랙라벨 소개</a></li>
+            <li><a href="#">명품의류</a></li>
+            <li><a href="#">명품신발</a></li>
+            <li><a href="#">명품가방</a></li>
+            <li><a href="#">가죽모피</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">혜택</a>
+          <ul class="sub">
+            <li><a href="#">할인정보</a></li>
+            <li><a href="#">세일 및 이벤트</a></li>
+            <li><a href="#">멤버쉽</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">창업안내</a>
+          <ul class="sub">
+            <li><a href="#">창업소개</a></li>
+            <li><a href="#">창업문의</a></li>
+            <li><a href="#">창업설명회</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">비즈니스 세탁</a>
+          <ul class="sub">
+            <li><a href="#">사업소개</a></li>
+            <li><a href="#">상담하기</a></li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="section">
+    <div class="sec1">
+      <h1 class="main_img1"></h1>
+      <h1 class="main_img2"></h1>
+      <h1 class="main_img3"></h1>
+    </div>
+  </div>
+  <div id="footer"></div>
+</body>
+</html>
